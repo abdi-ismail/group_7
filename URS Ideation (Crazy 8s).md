@@ -27,3 +27,19 @@
 
 ### 8. Current filter context
  While dashboard filters are applied, the dashboard shall clearly indicate the current selection or filtering context to the user.
+
+
+### 9. Daily step total
+The dashboard shall display the total number of steps recorded for each day.
+
+### 10. Average daily steps
+When the user selects a date the dashabord shall display the average step count of all users.
+
+### 11. Daily step goal
+When a user selects a daily step target the dashbaord shall plot a line at the target to help indicate the days where the target has been met.
+
+### 12. Data availability
+If no steps were recorded on the date selected for the given user ID then the dashboard shall show a message indicating no data is available.
+
+### 13. Distance travlled
+The user shall be able to see a time series displaying the distance travelled each day of the selected ID
