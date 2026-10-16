@@ -30,7 +30,7 @@ Below is a brief overview of the data layout:
 
 **Calorie Daily** Rows: 940, Columns: 3. Details the user ID, the Activity day (in dd/mm/yyyy format) and the Calories burnt.
 
-A quick histogram/box plot analysis shows circadian style rhythm throughout the day for calories burnt, little variations for days across the week and a skewed bell shaped curve distribution across user ID's.
+A quick histogram/box plot analysis shows circadian style rhythm throughout the day for calories burnt, little variations for days across the week and a skewed bell shaped curve distribution across user ID/Dayaggregate's.
 
 <img width="1728" height="960" alt="image" src="https://github.com/user-attachments/assets/663897ca-d6eb-4e57-9e37-51c632c05700" />
 <img width="1728" height="960" alt="image" src="https://github.com/user-attachments/assets/f78cf53f-c359-423d-8079-7770e813680f" />
