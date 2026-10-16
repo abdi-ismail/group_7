@@ -44,3 +44,22 @@ If no steps were recorded on the date selected for the given user ID then the da
 
 ### 13. Distance travlled
 The user shall be able to see a time series displaying the distance travelled each day of the selected ID
+
+# Greg
+
+## Calorie data
+
+### 14 Calories live
+The user should be able to see the expended calories up until that point in the day from 00:00:00 
+
+### 15 Calories summation
+The user should be able see the calories for a date range (e.g. hour, day, week, custom)
+
+### 16 Calories against activity hours
+The user should be able to compare calories burnt against activity hours and activity type
+
+### 17 Calorie deep dive
+User should be able to see "key stats" i.e. modal calorie expensive activities, hours of the day etc.
+
+### 18 Calorie ranking
+User should be able to see their average calorie expenditure as a percentile of other users for the week.
