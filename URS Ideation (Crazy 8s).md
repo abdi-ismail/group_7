@@ -28,6 +28,7 @@
 ### 8. Current filter context
  While dashboard filters are applied, the dashboard shall clearly indicate the current selection or filtering context to the user.
 
+## Steps data
 
 ### 9. Daily step total
 The dashboard shall display the total number of steps recorded for each day.
