@@ -17,7 +17,7 @@ when a curser hovers over it.
 
 **IF** we include a plot of my K-Means heart rate clusters, we **SHALL**
 have a numeric input box allowing the user to choose between 2, 3, 4 or
-5 clusters.
+5 clusters. A similar example is [here](https://shiny.posit.co/r/gallery/start-simple/kmeans-example/)
 
 Render times for all elements **SHALL** be under two seconds.
 
