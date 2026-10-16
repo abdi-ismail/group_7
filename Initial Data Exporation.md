@@ -13,7 +13,7 @@ The intensity data are provided at three levels of granularity.
  - **minuteIntensitiesWide_merged.csv** uses a wide format, with each row representing an hour and separate columns (Intensity00 to Intensity59) containing the intensity recorded for each minute.
 
 
-##Greg
+## Greg
 
 The "Calories" data has 4 csv': Minute Wide, Minute Narrow, Hourly and Daily. Minute Wide and Narrow are simply csv layout 
 differences. They contain 33 unique user ID's over 30 days from 12-APR-2016 00:00:00 through to 12-MAY-2016 15:59:00. 
