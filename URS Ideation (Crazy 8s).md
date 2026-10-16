@@ -49,17 +49,28 @@ The user shall be able to see a time series displaying the distance travelled ea
 
 ## Calorie data
 
-### 14 Calories live
+### 1 Calories live
 The user should be able to see the expended calories up until that point in the day from 00:00:00 
 
-### 15 Calories summation
+### 2 Calories summation
 The user should be able see the calories for a date range (e.g. hour, day, week, custom)
 
-### 16 Calories against activity hours
+### 3 Calories against activity hours
 The user should be able to compare calories burnt against activity hours and activity type
 
-### 17 Calorie deep dive
+### 4 Calorie deep dive
 User should be able to see "key stats" i.e. modal calorie expensive activities, hours of the day etc.
 
-### 18 Calorie ranking
+### 5 Calorie ranking
 User should be able to see their average calorie expenditure as a percentile of other users for the week.
+
+### 6 Calories by minute
+Users should be able to see at what minute(s) an activity expended the most calories
+
+## Generic
+
+### 7 Grouping of ID's
+User should be able to create participant groups, by either ID numbers, metrics or percentile.
+
+### 8 Sudden change alert/warning
+User should be given an alert if there is a sudden change in ID behaviour, loss of data, data anomalies to identify failing device or health concern.
