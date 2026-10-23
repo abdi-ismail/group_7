@@ -155,7 +155,7 @@ server <- function(input, output, session) {
       df <- sleep_day %>% filter(Id == info$id)
       
       ggplot(df, aes(x = Date, y = TotalMinutesAsleep / 60)) +
-        geom_col(fill = "#3498db", alpha = 0.85) +
+        geom_col(fill = "#0068ef", alpha = 0.85) +
         geom_hline(yintercept = global_avg_sleep, linetype = "dashed", color = "#2c3e50", linewidth = 1) +
         annotate("text", x = min(df$Date), y = global_avg_sleep, label = " Group Average", vjust = -0.7, hjust = 0, color = "#2c3e50", fontface = "bold") +
         theme_minimal(base_size = 14) +
