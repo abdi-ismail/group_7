@@ -1,0 +1,10 @@
+# RStudio local user settings and session state
+.Rproj.user/
+
+# macOS system junk
+.DS_Store
+
+# R history and data caches (optional but recommended)
+.Rhistory
+.RData
+.Ruserdata
