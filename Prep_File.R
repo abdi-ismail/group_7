@@ -80,6 +80,9 @@ user_profiles <- activity_summary %>%
   left_join(hr_summary, by = "Id")
 
 # Identify IDs of the four category
+# note that in order to win an award you must have at least 
+# 5 days worth of data for the given metric.
+
 furnace_id <- user_profiles %>% 
   filter(!is.na(avg_calories), days_active >= 5) %>% 
   slice_max(avg_calories, n = 1, with_ties = FALSE) %>% 
