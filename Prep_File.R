@@ -112,7 +112,7 @@ user_profiles <- user_profiles %>%
   mutate(
 Nickname = case_when(
   Id == furnace_id ~ "Furnace",
-  Id == sleepy_id  ~ "Sleepy Joe",
+  Id == sleepy_id  ~ "ZZZ",
   Id == lizard_id  ~ "Lizard",
   Id == hr_2nd_id  ~ "Runner-Up 1",
   Id == hr_3rd_id  ~ "Runner-Up 2",
@@ -121,7 +121,7 @@ Nickname = case_when(
 ),
 FullName = case_when(
   Id == furnace_id ~ "Graham Furnace",
-  Id == sleepy_id  ~ "Sleepy Joe",
+  Id == sleepy_id  ~ "Zack Z. Ziegler",
   Id == lizard_id  ~ "Chris 'The Lizard' Smith",
   Id == hr_2nd_id  ~ "Second Place Contender",
   Id == hr_3rd_id  ~ "Third Place Contender",
